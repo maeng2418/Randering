@@ -1,35 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rendering Page</title>
     <link rel="stylesheet" type="text/css" href="./fullpage.min.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
 </head>
 
 <body>
+    <a class="fixed blokee" href="#firstPage">Blokee</a>
+    <img class="fixed download" src="./download.png" alt="download" />
+    <img class="fixed arrow blink" src="./arrow.png" alt="arrow" id="arrow"/>
     <div id="fullpage">
         <div class="section" id="section0">
-            <h1>1번 페이지</h1>
+            <div class="main_title">
+                <h1>가장 완벽한</h1>
+                <h1>무료 광고 차단앱!</h1>
+            </div>
+            <div class="sub_title">
+                이제 끊김없이, 빠르게<br />보고 싶은 동영상과 음악을 만나보세요.
+            </div>
+            <div class="screenshot">
+                <img class="youtube" src="./youtube.png" alt="screenshot" />
+            </div>
         </div>
         <div class="section" id="section1">
-            <h1>2번 페이지</h1>
+            <div class="main_title">
+                <h1>유튜브, 네이버</h1>
+                <h1>동영상 광고</h1>
+                <h1>이제 그만!</h1>
+            </div>
+            <div class="sub_title">
+                이제 끊김없이, 빠르게<br />보고 싶은 동영상과 음악을 만나보세요.
+            </div>
+            <div class="screenshot">
+                <img class="youtube" src="./youtube.png" alt="screenshot"/>
+            </div>
         </div>
         <div class="section" id="section2">
-            <h1>3번 페이지</h1>
-        </div>
-        <div class="section" id="section3">
-            <h1>4번 페이지</h1>
+            <div class="main_title">
+                <h1>데이터는 아끼고</h1>
+                <h1>속도는 올리고</h1>
+            </div>
+            <div class="sub_title">
+                악성 광고를 차단하면<br />데이터 사용량은 최대 75% 절약되고<br />웹페이지 로딩 속도는 최대 4배 빨라집니다.
+            </div>
+            <div class="screenshot">
+                <img class="youtube" src="./youtube.png" alt="screenshot"/>
+            </div>
         </div>
     </div>
 
     <script type="text/javascript" src="./fullpage.min.js"></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            sectionsColor: ['red', 'yellow', 'orange', 'blue', 'green']
+            sectionsColor: ['white', 'yellow', 'orange'],
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            onLeave: function (origin, destination, direction) {
+                if (origin.index == 1 && direction == 'down') {
+                    document.querySelector('.arrow').style.display='none';
+                }
+                else {
+                    document.querySelector('.arrow').style.display='block';
+                    document.querySelector('.arrow').className="fixed arrow";
+                }
+            }
         });
     </script>
 </body>
-
 </html>
