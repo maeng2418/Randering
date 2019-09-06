@@ -12,7 +12,7 @@
 
 .blokee {
     font-family: Montserrat;
-    font-size: 5vw;
+    font-size: 2.5vh;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -20,19 +20,19 @@
     text-align: left;
     color: #ffffff;
     text-decoration: none;
-    margin-top: 6.111vw;
+    margin-top: 3vh;
     margin-left: 6.389vw;
 }
 
 .main_title::before{
     display: block;
     content: '';
-    height: 18.333vw;
+    height: 10vh;
 }
 
 .main_title {
     font-family: NotoSansCJKkr;
-    font-size: 8.889vw;
+    font-size: 5vh;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -40,7 +40,7 @@
     letter-spacing: -0.400vw;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 8.333vw;
+    margin-bottom: 0;
 }
 
 .img_container {
@@ -48,40 +48,39 @@
 }
 
 .lottie1 {
-    width: 62.222vw;
+    height: 36vh;
     display: inline-block;
     text-align: center;
 }
 
 .lottie2 {
-    width: 16.556vw;
+    height: 4vh;
     position: absolute;
-    top: 27.500vw;
+    top: 16vh;
     left: 33.333vw;
 }
 
 .youtube {
-    width: 50.833vw;
-    height: 42.639vw;
+    height: 23vh;
+    margin-top: 2.5vh;
 }
 
 .graph {
-    width: 81.944vw;
-    height: 85.833vw;
+    height: 42vh;
     object-fit: contain;
     margin-left: 4.167vw;
 }
 
 .sub_title {
-    margin-top: 3.167vw;
+    margin-top: 1vh;
     /* height: 42px; */
     font-family: NotoSansCJKkr;
-    font-size: 3.889vw;
+    font-size: 2.1875vh;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.57;
-    letter-spacing: -0.63px;
+    letter-spacing: -0.197vw;
     text-align: center;
     color: #ffffff;
 }
@@ -89,7 +88,7 @@
 .gradation {
     position: absolute;
     font-family: NotoSansCJKkr;
-    font-size: 3.889vw;
+    font-size: 2.1875vh;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -97,25 +96,24 @@
     letter-spacing: -0.175vw;
     text-align: center;
     color: #ffffff;
-    top: 83.722vw;
+    top: 41vh;
     left: 50%;
     transform: translate(-50%,-50%);
     width: fit-content;
 }
 
 .down_container {
-    bottom: 12.778vw;
+    bottom: 4vh;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .icon {
-    width: 14.444vw;
-    height: 14.444vw;
+    height: 8vh;
     object-fit: contain;
     /* box-shadow: 0 0.833vw 1.667vw 0 rgba(0, 0, 0, 0.16); */
     position: absolute;
-    top: -5.556vw;
+    top: -3.125vh;
     left: 48.056vw;
     z-index: 4;
 }
@@ -126,11 +124,11 @@
 
 label {
     font-family: NotoSansCJKkr;
-    font-size: 5vw;
+    font-size: 2.8125vh;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.39;
+    /* line-height: 2.39; */
     letter-spacing: -0.225vw;
     text-align: center;
     color: #ffffff;
@@ -142,17 +140,16 @@ label {
 }
 
 .arrow {
-    width: 2.333vw;
-    height: 3.861vw;
+    width: 1.25vh;
+    height: 2.1875vh;
     object-fit: contain;
-    margin-left: 2.278vw;
+    margin-left: 1.25vh;
 }
 
 .download {
-    width: 56.389vw;
-    height: 15.556vw;
+    height: 7vh;
     object-fit: contain;
-    border-radius: 25px;
+    border-radius: 6.944vw;
     background-color: #2f2f2f;
 }
 
@@ -160,22 +157,21 @@ label {
     /* width: 150px;
     height: 15px; */
     font-family: NotoSansCJKkr;
-    font-size: 2.778vw;
+    font-size: 1.5625vh;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 2.4;
-    letter-spacing: -0.45px;
+    letter-spacing: -0.141vw;
     text-align: center;
     color: #ffffff;
 }
 
 .scroll {
-    width: 8.222vw;
-    height: 1.361vw;
+    height: 0.625vh;
     object-fit: contain;
     opacity: 0.6;
-    bottom: 4.278vw;
+    bottom: 2vh;
     left: 50%;
     transform: translateX(-50%);
 }
