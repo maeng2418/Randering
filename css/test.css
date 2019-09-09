@@ -65,7 +65,7 @@
 }
 
 .main_title {
-    font-family: NotoSansCJKkr;
+    font-family: 'NotoSansCJKkr-Bold';
     font-size: 2rem;
     font-weight: bold;
     font-style: normal;
@@ -115,7 +115,7 @@
 
 .sub_title {
     /* height: 42px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'NotoSansCJKkr-DemiLight';
     font-size: 0.875rem;
     font-weight: 300;
     font-style: normal;
@@ -128,7 +128,7 @@
 
 .third_sub {
     position: absolute;
-    font-family: NotoSansCJKkr;
+    font-family: 'NotoSansCJKkr-DemiLight';
     font-size: 0.875rem;
     font-weight: 300;
     font-style: normal;
@@ -150,8 +150,8 @@
 }
 
 .icon {
-    width: 3.25rem;
-    height: 3.25rem;
+    width: 3.5rem;
+    height: 3.5rem;
     object-fit: contain;
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.16));
     position: absolute;
@@ -167,7 +167,7 @@
 }
 
 label {
-    font-family: NotoSansCJKkr;
+    font-family: 'NotoSansCJKkr-Medium';
     font-size: 1.125rem;
     font-weight: 500;
     font-style: normal;
@@ -201,7 +201,7 @@ label {
 .small {
     /* width: 150px;
     height: 15px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'NotoSansCJKkr-Regular';
     font-size: 0.625rem;
     font-weight: normal;
     font-style: normal;
@@ -213,8 +213,7 @@ label {
 }
 
 .scroll {
-    width: 1.85rem;
-    height: 0.30625rem;
+    width: 2.5rem;
     object-fit: contain;
     opacity: 0.6;
     bottom: 0.9625rem;

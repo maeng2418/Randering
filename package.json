@@ -1,22 +1,22 @@
 {
-  "name": "rendering",
+  "name": "rending",
   "version": "1.0.0",
   "description": "",
-  "main": "fullpage.min.js",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maeng2418/Randering.git"
+    "url": "git+https://github.com/maeng2418/Rending.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maeng2418/Randering/issues"
+    "url": "https://github.com/maeng2418/Rending/issues"
   },
-  "homepage": "https://github.com/maeng2418/Randering#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/maeng2418/Rending#readme"
 }
